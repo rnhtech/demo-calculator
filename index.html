@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="calculator.js"> </script>
+    <style>
+        .container{
+            margin-top: 70px;
+        }
+
+        input{
+            width: 215px;
+            padding: 12px;
+        }
+        .btn{
+            padding: 12px 14px;
+            margin-top: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            width: 50px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container text-center">
+            <h2> CALCULATOR </h2>
+            <input id="input-box" placeholder="Enter operation" />
+            <div class="row">
+                <div class="col-sm-12">
+                    <button value="1" class="btn num-btn btn-default"> 1 </button>
+                    <button value="2" class="btn num-btn btn-default"> 2 </button>
+                    <button value="3" class="btn num-btn btn-default"> 3 </button>
+                    <button value="+" class="btn btn-default"> + </button>
+                </div>
+                <div class="col-sm-12">
+                    <button value="4" class="btn num-btn btn-default"> 4 </button>
+                    <button value="5" class="btn num-btn btn-default"> 5 </button>
+                    <button value="6" class="btn num-btn btn-default"> 6 </button>
+                    <button value="-" class="btn btn-default"> - </button>
+                </div>
+                <div class="col-sm-12">
+                    <button value="7" class="btn num-btn btn-default"> 7 </button>
+                    <button value="8" class="btn num-btn btn-default"> 8 </button>
+                    <button value="9" class="btn num-btn btn-default"> 9 </button>
+                    <button value="*" class="btn btn-default"> * </button>
+                </div>
+                <div class="col-sm-12">
+                    <button value="c" class="btn btn-default"> C </button>
+                    <button value="0" class="btn num-btn btn-default"> 0 </button>
+                    <button value="" class="btn btn-default"> = </button>
+                    <button value="/" class="btn btn-default"> / </button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+ </html>
